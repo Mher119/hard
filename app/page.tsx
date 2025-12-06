@@ -1,11 +1,9 @@
 import styles from "./Home.module.css";
 import Image from "next/image";
 
-
 export default function Home() {
   return (
     <div className={styles.container}>
-      
       <div className={styles.main}>
         <h1>divine softness</h1>
         <p>our heritage</p>
@@ -13,20 +11,33 @@ export default function Home() {
 
       <div className={styles.card}>
         <p className={styles.about}>About</p>
-        <p>At Sacre Jewellery, we believe that beauty is energy — unseen, yet deeply felt. Our creations are born from the fusion of craftsmanship and spirit. Each design is infused with intention, balancing elegance and mysticism.</p>
-       
+        <p>
+          At Sacre Jewellery, we believe that beauty is energy — unseen, yet deeply felt.
+          Our creations are born from the fusion of craftsmanship and spirit.
+          Each design is infused with intention, balancing elegance and mysticism.
+        </p>
+
         <div className={styles.imgColumn}>
-        <Image src="/Group 59.png" alt="image" width={263} height={310} className={styles.img1}/>
-        <div className={styles.learn}>Learn more</div>
+          <Image
+            src="/group 59.png"
+            alt="Group 59"
+            width={263}
+            height={310}
+            className={styles.img1}
+          />
+          <div className={styles.learn}>Learn more</div>
         </div>
-        
-        <Image src="/image 68.png" alt="image" width={655} height={795} className={styles.img2}/>
-       
 
+        <Image
+          src="/image 68.png"
+          alt="Image 68"
+          width={655}
+          height={795}
+          className={styles.img2}
+        />
       </div>
-
     </div>
-  )
+  );
 }
 
 
