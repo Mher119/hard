@@ -19,8 +19,8 @@ export default function Home() {
 
         <div className={styles.imgColumn}>
           <Image
-            src="/group 59.png"
-            alt="Group 59"
+            src="/Group59.png"
+            alt="Group59"
             width={263}
             height={310}
             className={styles.img1}
@@ -29,8 +29,8 @@ export default function Home() {
         </div>
 
         <Image
-          src="/image 68.png"
-          alt="Image 68"
+          src="/image68.png"
+          alt="Image68"
           width={655}
           height={795}
           className={styles.img2}
