@@ -177,13 +177,14 @@
     gap: 8px;
   }
 
-  .img1,
-  .img2 {
-    margin-left: 0;
-    margin-right: 0;
-    width: 100%; /* fill screen width */
+  .img1, .img2 {
+    margin-left: 5px;
+    margin-right: 5px;
+    width: calc(100% - 10px);
     height: auto;
   }
+
+  
 
   .learn {
       margin-left: 0;
