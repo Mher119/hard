@@ -83,3 +83,111 @@
   margin-left: 50px;
   text-transform: capitalize;
 }
+
+
+
+
+/* Responsive for max-width: 768px */
+@media (max-width: 768px) {
+  .main h1 {
+    font-size: 2.5rem; /* ~40px */
+    margin-top: 50px;
+    margin-right: 0;
+    text-align: center;
+  }
+
+  .main p {
+    font-size: 1.5rem; /* ~24px */
+    margin-top: 10px;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .card {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 40px;
+  }
+
+  .card .about,
+  .card p {
+    margin-left: 0;
+    margin-right: 0;
+    max-width: 90%;
+    text-align: center;
+  }
+
+  .imgColumn {
+    margin-left: 0;
+    align-items: center;
+  }
+
+  .img1,
+  .img2 {
+    margin-left: 0;
+    margin-right: 0;
+    width: 80%;   /* scale images on smaller screens */
+    height: auto;
+  }
+
+  .learn {
+    margin-left: 0;
+    text-align: center;
+    font-size: 16px;
+  }
+}
+
+
+/* Mobile phones: max-width 480px */
+@media (max-width: 480px) {
+  .main h1 {
+    font-size: 2rem; /* smaller than tablet */
+    margin-top: 40px;
+    margin-right: 0;
+    text-align: center;
+  }
+
+  .main p {
+    font-size: 1.2rem;
+    margin-top: 8px;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .card {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-top: 30px;
+  }
+
+  .card .about,
+  .card p {
+    margin-left: 0;
+    margin-right: 0;
+    max-width: 95%;
+    text-align: center;
+    font-size: 14px;
+  }
+
+  .imgColumn {
+    margin-left: 0;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .img1,
+  .img2 {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%; /* fill screen width */
+    height: auto;
+  }
+
+  .learn {
+      margin-left: 0;
+    text-align: center;
+    font-size: 14px;
+  }
+}
